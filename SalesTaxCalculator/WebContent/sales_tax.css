@@ -1,23 +1,41 @@
 @CHARSET "ISO-8859-1";
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #333366; }
+    font-family: Time_new_roman;
+    
+    background: #8FBC8F; }
 #content {
-    width: 450px;
+    width: 500px;
     margin: 10px auto;
     padding: 5px 20px;
-    background: white;
-    border: thin solid black; }
+    background: Silver;
+    border: thick solid green; }
+#content2 {
+
+    width: 290px;
+    margin: 10px auto;
+    border: thick double black; 
+    padding: 0px 10px;
+    background: gray;
+ }    
+    
 #salesTax, #total {
     color: black; }
 #taxCalc label {
     display: block;
-    width: 6em;
+    width: 7em;
+
+    padding-right: 1em;
+    float: left; }
+#taxCalc label2 {
+    display: block;
+    width: 7em;
     text-align: right;
     padding-right: 1em;
     float: left; }
 #taxCalc input {
     display: block;
-    float: left; }
+    float: left;
+     width: 7em; }
+     
 #taxCalc br {
     clear: left; }
